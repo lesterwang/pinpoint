@@ -42,28 +42,28 @@
     </pluginRepositories>
 
     <modules>
-        <module>agent</module>
-        <module>bootstrap-core</module>
-        <module>bootstrap</module>
-        <module>collector</module>
-        <module>commons</module>
-        <module>commons-hbase</module>
-        <module>commons-server</module>
-        <module>tools</module>
-        <module>plugins</module>
-        <module>profiler</module>
-        <module>profiler-optional</module>
-        <module>rpc</module>
-        <module>thrift</module>
-        <module>test</module>
-        <module>web</module>
-        <module>hbase</module>
+        <module>pinpoint-agent</module>
+        <module>pinpoint-bootstrap-core</module>
+        <module>pinpoint-bootstrap</module>
+        <module>pinpoint-collector</module>
+        <module>pinpoint-commons</module>
+        <module>pinpoint-commons-hbase</module>
+        <module>pinpoint-commons-server</module>
+        <module>pinpoint-tools</module>
+        <module>pinpoint-plugins</module>
+        <module>pinpoint-profiler</module>
+        <module>pinpoint-profiler-optional</module>
+        <module>pinpoint-rpc</module>
+        <module>pinpoint-thrift</module>
+        <module>pinpoint-test</module>
+        <module>pinpoint-web</module>
+        <module>pinpoint-hbase</module>
     </modules>
 
     <properties>
         <encoding>UTF-8</encoding>
-        <jdk.version>1.6</jdk.version>
-        <jdk.home>${env.JAVA_6_HOME}</jdk.home>
+        <jdk.version>1.8</jdk.version>
+        <jdk.home>${env.JAVA_8_HOME}</jdk.home>
         <test.jdk.home>${jdk.home}</test.jdk.home>
         <slf4j.version>1.7.21</slf4j.version>
         <metrics.version>3.1.2</metrics.version>
